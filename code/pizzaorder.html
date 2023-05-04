@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pizza Order</title>
+        <meta name="author" content="Bonita Li">
+        <meta name="description" content="Assignment 2">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Pizza Order</h2>
+        <form name="pizzaorder" method="get" action="creditcard.html">
+            <table>
+                <tr>
+                    <td>
+                        <label for="customername">Customer Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="customername" id="customername" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pizzabase">Pizza Base: </label>
+                    </td>
+                    <td>
+                        <select id="pizzabase" required>
+                            <option hidden></option>
+                            <option>Hand Tossed</option>
+                            <option>Thin Crust</option>
+                            <option>Regular</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pizzatype">Pizza Type: </label>
+                    </td>
+                    <td>
+                        <select id="pizzatype" required>
+                            <option hidden></option>
+                            <option>Pepperoni</option>
+                            <option>Cheese</option>
+                            <option>Veggie Lover</option>
+                            <option>Hawaiian</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pizzasize">Pizza Size: </label>
+                    </td>
+                    <td>
+                        <select id="pizzasize" required>
+                            <option hidden></option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="drink">Drink: </label>
+                    </td>
+                    <td>
+                        <select id="drink" required>
+                            <option hidden></option>
+                            <option>Coke</option>
+                            <option>Juice</option>
+                            <option>Canada Dry</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="numofdrinks">Quantity for Drinks:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="numofdrinks" min="0" max="10" step="1" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dessert">Dessert: </label>
+                    </td>
+                    <td>
+                        <select id="dessert=">
+                            <option hidden></option>
+                            <option>Brownie</option>
+                            <option>Ice Cream</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="delivery">Delivery: </label>
+                    </td>
+                    <td>
+                        <select id="delivery" required>
+                            <option hidden></option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Click to submit" name="btnsubmit">
+        </form><br>
+            <img src="../assets/images/iStock-695103790.jpg" width="250" ><br>
+            <cite>Pizza Margarita by iStock</a></cite>
+            <br>
+        <footer>
+            <br><br>
+            <a href="main.html">Back to main page</a>
+        </footer>
+    </body>
+</html>

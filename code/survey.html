@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey</title>
+    <meta name="author" content="Bonita Li">
+    <meta name="description" content="Assignment 2">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form name="survey" method="get" action="main.html"><table>
+        <h2>Please complete our survey!</h2>
+        <tr>
+            <td colspan="2"><strong>Contact Information</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="e1">Email address: </label>
+            </td>
+            <td>
+                <input type="email" id="e1" name="e1" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fn1">First name: </label>
+            </td>
+            <td>
+                <input type="text" id="fn1" name="fn1" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ln1">Last name: </label>
+            </td>
+            <td>
+                <input type="text" id="ln1" name="ln1" required>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2"><strong>Geographic information</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="state">State: </label>
+            </td>
+            <td>
+                <input type="text" id="state" name="state" minlength="2" maxlength="2" placeholder="Two characters" equired>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zipcode">Zip code:</label>
+            </td>
+            <td>
+                <input type="text" id="zipcode" name="zipcode" placeholder="Five digits" minlength="5" maxlength="5" required>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2"><strong>How did you find us?</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="websearch">Web search:</label>
+            </td>
+            <td>
+                <input type="checkbox" name="find" value="webs" id="websearch">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="facebook">Facebook:</label>
+            </td>
+            <td>
+                <input type="checkbox" name="find" value="fb" id="facebook">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="twitter">Twitter: </label>
+            </td>
+            <td>
+                <input type="checkbox" name="find" value="twit" id="twitter">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="emailmessage">Email message: </label>
+            </td>
+            <td>
+                <input type="checkbox" name="find" value="emailm" id="emailmessage">
+            </td>
+        </tr>
+    </table>
+    <p><strong>Thank you for taking our survey!</strong></p>
+        <input type="submit" value="click to submit" name="btnsubmit">
+        <input type="reset" value="click to reset" name="btnreset">
+    </form>
+    <br><br>
+    <footer><a href="main.html">Back to main page</a></footer>
+</body>
+</html>
